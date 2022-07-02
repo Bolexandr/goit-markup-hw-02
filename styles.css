@@ -1,0 +1,30 @@
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: rgba(100%, 0%, 0%, 30%);
+}
+
+.social-links .link:active {
+    color: red;
+}
+
+.social-links .link:visited {
+    color: green;
+}
+/* Специфічність - 0 0 1 0 */
+.post-title {
+    color: green;
+}
+
+/* Специфічність - 0 0 1 1 */
+.post>h1 {
+    color: red;
+}
+
+/* ✅ Специфічність - 0 0 2 0
+.post>.post-title {
+    color: orange;
+} */

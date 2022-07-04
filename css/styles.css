@@ -156,6 +156,7 @@ h1 {
 footer {
     font-size: 14px;
     line-height: 1.71;
+    background-color: #2F303A;
 }
 
 footer>.logo,

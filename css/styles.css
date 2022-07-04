@@ -1,0 +1,155 @@
+/*Colors that are often found:
+Main blue: #2196F3
+Main white: #FFFFFF
+Primarie black_text: #757575;
+Secondary_black_Text: #212121;
+ */
+ :root {
+ --primary-text-color:#757575;
+ --accent-color: #2196F3;
+ --title-text-color: #212121;
+ --primary-bacground-color:#ffffff;
+ }
+
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;   
+}
+body{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+color: var(--title-text-color) ;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+background-color: var(--primary-bacground-color);
+}
+body a{
+    font-style: normal;
+    text-decoration-line: none;
+}
+body li{
+    list-style: none;
+}
+button {
+    text-decoration: none;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+/* HEADER */
+.logo{
+text-decoration: none;    
+ font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+.logo-blue,.nav-page:hover,
+.nav-page:focus,.contact:hover,
+.contact:focus,.current{
+color: var(--accent-color);
+}
+header,
+.contact {
+font-size: 14px;
+line-height: 1.14;
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+.nav-page{
+  
+}
+.contact{
+    color:var(--primary-text-color);
+}
+/* hero */
+.hero{
+    background-color: #2F303A;
+    color: #ffffff;
+}
+h1{ 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-hero{
+    background-color:var(--accent-color);
+    color:#F5F4FA ;
+}
+.button-portfolio {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+    line-height: 1.62;
+    font-weight: 500;
+}
+.button-portfolio:hover,
+.button-portfolio:focus,
+.current-btn{
+    background-color: var(--accent-color);
+    color:#ffffff ;
+}
+/* Приимущества */
+.benefits-title{
+font-size: 14px;
+line-height: 1.14;
+}
+.benefits-text{
+    font-size:14px;
+    line-height: 1.71;
+color: var(--primary-text-color);
+}
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+/* stuff */
+.team{
+    background-color: #F5F4FA;
+    line-height: 1.19;
+}
+.employee-name{
+font-weight: 500;
+}
+.employee-position{
+color:var(--primary-text-color) ;
+}
+/* portfolio */
+
+.examples-title{
+    font-size: 18px;
+    line-height: 1.99;
+    letter-spacing: 0.06em;
+}
+.examples-text{
+color: var(--primary-text-color);
+line-height: 1.88;
+}
+/* futer */
+footer{
+    font-size: 14px;
+    background-color:#2F303A;
+    line-height: 1.71;
+}
+ footer>.logo,
+ .address-ofice {
+    color:#ffffff;
+}
+footer .contact{
+    color: rgba(255, 255, 255, 0.6);
+}

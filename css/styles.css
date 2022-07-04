@@ -1,9 +1,4 @@
-/*Colors that are often found:
-Main blue: #2196F3
-Main white: #FFFFFF
-Primarie black_text: #757575;
-Secondary_black_Text: #212121;
- */
+/* MAIN global properties */
 :root {
     --primary-text-color: #757575;
     --accent-color: #2196F3;

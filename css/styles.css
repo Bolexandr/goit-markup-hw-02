@@ -6,6 +6,14 @@
     --primary-bacground-color: #ffffff;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-text-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-bacground-color);
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -19,17 +27,7 @@
     overflow: hidden;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    background-color: var(--primary-bacground-color);
-}
-
-body a {
+a {
     font-style: normal;
     text-decoration-line: none;
 }
@@ -56,21 +54,25 @@ button {
     color: #000000;
 }
 
+.nav-link {
+    color: var(--title-text-color);
+}
+
 .logo-blue, .nav-page:hover,
-.nav-page:focus, .contact:hover,
-.contact:focus, .current {
+.nav-page:focus, .contact-link:hover,
+.contact-link:focus, .current {
     color: var(--accent-color);
 }
 
-header,
-.contact {
+.nav-link,
+.contact-link {
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
-.contact {
+.contact-link {
     color: var(--primary-text-color);
 }
 
@@ -80,7 +82,7 @@ header,
     color: #ffffff;
 }
 
-h1 {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -112,51 +114,62 @@ h1 {
 .benefits-title {
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .benefits-text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-text-color);
+    font-weight: 400;
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
 /* stuff */
-.team {
-    line-height: 1.19;
-}
+.team {}
 
 .employee-name {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
 }
 
 .employee-position {
     color: var(--primary-text-color);
+    line-height: 1.19;
+    font-weight: 400;
+
 }
 
 /* portfolio */
 .examples-title {
     font-size: 18px;
-    line-height: 1.99;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .examples-text {
     color: var(--primary-text-color);
     line-height: 1.88;
+    font-weight: 400;
 }
 
 /* futer */
 footer {
+    background-color: #2F303A;
+}
+
+.address-ofice,
+footer .contact-link {
     font-size: 14px;
     line-height: 1.71;
-    background-color: #2F303A;
+    font-weight: 400;
 }
 
 footer>.logo,
@@ -164,6 +177,6 @@ footer>.logo,
     color: #ffffff;
 }
 
-footer .contact {
+footer .contact-link {
     color: rgba(255, 255, 255, 0.6);
 }

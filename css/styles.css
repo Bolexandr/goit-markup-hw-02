@@ -58,8 +58,8 @@ button {
     color: var(--title-text-color);
 }
 
-.logo-blue, .nav-page:hover,
-.nav-page:focus, .contact-link:hover,
+.logo-blue, .nav-link:hover,
+.nav-link:focus, .contact-link:hover,
 .contact-link:focus, .current {
     color: var(--accent-color);
 }

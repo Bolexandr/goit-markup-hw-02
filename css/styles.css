@@ -131,7 +131,9 @@ button {
 }
 
 /* stuff */
-.team {}
+.team {
+    background-color: #F5F4FA;
+}
 
 .employee-name {
     font-weight: 500;
